@@ -1,4 +1,4 @@
-package com.ancevt.pagecountercli;
+package com.ancevt.pagecounter.cli;
 
 import com.ancevt.util.args.Args;
 import org.apache.commons.io.FilenameUtils;
@@ -25,7 +25,7 @@ public class PageCounterApplication {
     private static final Map<String, PageCounter> pageCounterImplementations = Map.of(
             "docx", new DocxPageCounter(),
             "pdf", new PdfPageCounter()
-            // You can extend this map with you own PageCounter implementation
+            // You can extend content of this map with your own PageCounter implementations
     );
 
     public PageCounterApplication(String basePath) throws IOException {
@@ -49,7 +49,7 @@ public class PageCounterApplication {
         }
     }
 
-    private String getExtension(Path path) {
+    private static String getExtension(Path path) {
         return FilenameUtils.getExtension(path.toString()).toLowerCase();
     }
 

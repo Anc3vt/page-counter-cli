@@ -115,7 +115,7 @@
                     <archive>
                         <manifest>
                             <addClasspath/>
-                            <mainClass>com.ancevt.pagecountercli.PageCounterApplication</mainClass>
+                            <mainClass>com.ancevt.pagecounter.cli.PageCounterApplication</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

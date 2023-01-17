@@ -1,4 +1,4 @@
-package com.ancevt.pagecountercli;
+package com.ancevt.pagecounter.cli;
 
 import java.nio.file.Path;
 

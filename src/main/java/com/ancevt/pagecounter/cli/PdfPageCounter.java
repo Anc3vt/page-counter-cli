@@ -1,4 +1,4 @@
-package com.ancevt.pagecountercli;
+package com.ancevt.pagecounter.cli;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
 

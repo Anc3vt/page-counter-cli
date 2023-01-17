@@ -1,4 +1,4 @@
-package com.ancevt.pagecountercli;
+package com.ancevt.pagecounter.cli;
 
 import org.apache.poi.POIXMLDocument;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
