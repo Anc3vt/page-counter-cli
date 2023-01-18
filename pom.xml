@@ -9,7 +9,7 @@
     <version>0.0.0.1</version>
 
     <name>Page counter CLI</name>
-    <url>https://githib.com/Anc3vt/test-task-cli</url>
+    <url>https://githib.com/Anc3vt/page-counter-cli</url>
 
     <developers>
         <developer>
@@ -134,10 +134,6 @@
                     </execution>
                 </executions>
             </plugin>
-
-
         </plugins>
     </build>
-
-
 </project>

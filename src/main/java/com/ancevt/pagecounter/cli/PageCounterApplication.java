@@ -40,7 +40,7 @@ public class PageCounterApplication {
         System.out.printf("Pages: %d%n", pages.get());
     }
 
-    private void handleDocument(Path path, AtomicInteger documents, AtomicInteger pages) {
+    private static void handleDocument(Path path, AtomicInteger documents, AtomicInteger pages) {
         PageCounter pageCounter = pageCounterImplementations.get(getExtension(path));
 
         if (pageCounter != null) {
