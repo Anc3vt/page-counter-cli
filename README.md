@@ -25,3 +25,5 @@ java -jar target/page-counter.jar /home/username/Documents
 Documents: 4
 Pages: 201 
 ```
+
+Если указанная вами директория отсутствует, будет выведен stack trace исключения в stderr.
